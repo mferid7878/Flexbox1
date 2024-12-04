@@ -1,0 +1,41 @@
+.car-card{
+    height: fit-content;
+    width: 200px;
+    box-shadow: 4px 3px 61px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 3px 61px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 3px 61px 0px rgba(0,0,0,0.75);
+overflow: hidden;
+border-radius: 5%;
+transition: 0.5s;
+}
+.car-card:hover{
+    transform: scale(1.05);
+    box-shadow: 11px 15px 177px 34px rgba(0,0,0,0.75);
+-webkit-box-shadow: 11px 15px 177px 34px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 15px 177px 34px rgba(0,0,0,0.75);
+}
+.carphoto>img { 
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+.prop{
+    padding: 10px;
+}
+.price{
+    font-size: 10px;
+    color: green;
+    font-weight: bold;
+}
+.model{
+    font-size: 15px;
+    color: brown ;
+    font-weight: bold;
+}
+.things{
+    font-weight: 400;
+}
+.date{
+    font-weight: 300;
+}
+
